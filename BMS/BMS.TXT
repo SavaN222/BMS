@@ -1,0 +1,17 @@
+/* 
+************************************************************
+* BMS - BUSINESS MANAGMENT SYSTEM
+* Author: https://www.linkedin.com/in/s22n/
+************************************************************
+*/
+-----------------------------------[ ABOUT PROJECT ] --------------------------------------------
+This is my first "big" Web Development Project.
+The BMS SYSTEM contains the creation, modification, deletion of job listings and employees as well as a payroll report on the number of employees,
+the number of paid and unpaid salaries. It also contains a HOME,CONTANT NAD GALLERY page that everyone can see.
+Workers can only see their profile while the administrator contains all the system options.
+Creation pages for workers and jobs contain validation. 
+Passwords are encrypted.
+
+-----------------------------------[ TECHNOLOGIES ] -------------------------------------------------
+-HTML,CSS,BOOTSTRAP,JAVASCRIPT,JQUERY,PHP,MYSQL.
+----------------------------------------------------------------------------------------------------

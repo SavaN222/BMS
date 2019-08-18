@@ -1,0 +1,21 @@
+.black-bg {
+	background-color: #222831;
+}
+.darkblue-bg {
+	background-color: #2b2e4a;
+}
+.gray-bg {
+	background-color: #393e46;
+}
+.tomato-bg {
+	background-color: #e84545;
+}
+.tomato-col {
+	color: #e74a3b;
+}
+.tomato-col:hover {
+	color: #EEE;
+}
+.light-bg {
+	background-color: #EEE;
+}
