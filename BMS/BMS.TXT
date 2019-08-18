@@ -2,6 +2,9 @@
 ************************************************************
 * BMS - BUSINESS MANAGMENT SYSTEM
 * Author: https://www.linkedin.com/in/s22n/
+* YouTube: https://www.youtube.com/watch?v=tiYrX8DBn1k
+* E-Mail: nakaradasava@gmail.com
+* GitHub: https://github.com/Savke0203/BMS
 ************************************************************
 */
 -----------------------------------[ ABOUT PROJECT ] --------------------------------------------
