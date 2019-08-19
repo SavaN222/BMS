@@ -20,15 +20,12 @@ public function loginUser() {
 		$stmt = $this->getData($email,$password);
 		$num = $stmt->rowCount();
 		//var_dump($stmt);
-		if ($num = 1 ) {
+		if ($num == 1 ) {
 			$row = $stmt->fetch(PDO::FETCH_ASSOC);
 			$rola = $row['id_rola'];
 			$username = $row['ime'];
 			$id_radnik = $row['id_radnik'];
-		} else {
-			echo "<h1>Error</h1>";
-		}
-		if ($rola == 5) {
+			if ($rola == 5) {
 			$_SESSION['admin'] = $username;
 			$_SESSION['user'] = $id_radnik;
 			header("Location: ../admin/dash.php");
@@ -37,9 +34,11 @@ public function loginUser() {
 			$_SESSION['user'] = $id_radnik;
 			header("Location: ../user/profile.php?id_radnik=$id_radnik");
 			exit();
+		} 
 		} else {
-			echo "<h1>Korisnik nije pronadjen</h1>";
+			echo "<h1>User not found</h1>";
 		}
+		
 	}
 }
 
