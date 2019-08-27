@@ -6,7 +6,7 @@ include_once '../../BL/Profile.php';
 include_once '../../BL/Redirect.php';
 //------------------//
 $database = new Database();
-$db = $database->dbConnect();
+$db = $database->getConnection();
 
 $profile = new Profile($db);
 
