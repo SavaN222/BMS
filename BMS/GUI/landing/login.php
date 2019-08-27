@@ -5,8 +5,7 @@ include_once '../../DAL/Database.php';
 include_once '../../BL/Login.php';
 //------------------//
 $database = new Database();
-$db = $database->getConnection();
-
+$db = $database->dbConnect();
 if (isset($_POST['submit'])) {
   $login = new Login($db);
   $login->loginUser();
