@@ -10,7 +10,7 @@ include_once '../../BL/WorkPlace.php';
 include_once '../../BL/Profile.php';
 //------------------//
 $database = new Database();
-$db = $database->dbConnect();
+$db = $database->getConnection();
 
 $work = new WorkPlace($db);
 $stmt = $work->readAllWork();

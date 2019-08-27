@@ -10,7 +10,7 @@ $perm = new Redirect();
 $perm->redirectAdmin();
 
 $database = new Database();
-$db = $database->dbConnect();
+$db = $database->getConnection();
 
 $work = new WorkPlace($db);
 $profile = new Profile($db);

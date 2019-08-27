@@ -11,7 +11,7 @@ $perm->redirectUser();
 
 
 $database = new Database();
-$db = $database->dbConnect();
+$db = $database->getConnection();
 
 $work = new WorkPlace($db);
 $stmtwork = $work->readAllWork();

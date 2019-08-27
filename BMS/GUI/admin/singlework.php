@@ -13,7 +13,7 @@ include_once '../../BL/Profile.php';
 include_once '../../BL/WorkPlace.php';
 //------------------//
 $database = new Database();
-$db = $database->dbConnect();
+$db = $database->getConnection();
 
 
   $work = new WorkPlace($db);

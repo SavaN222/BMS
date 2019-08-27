@@ -12,7 +12,7 @@ include_once '../../DAL/Database.php';
 include_once '../../BL/WorkPlace.php';
 //------------------//
 $database = new Database();
-$db = $database->dbConnect();
+$db = $database->getConnection();
 
   $stmt = new WorkPlace($db);
   $stmt->id_radno_mesto = isset($_GET['edit']) ? $_GET['edit'] : die();

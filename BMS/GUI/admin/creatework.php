@@ -9,7 +9,7 @@ include_once '../../DAL/Database.php';
 include_once '../../BL/WorkPlace.php';
 //------------------//
 $database = new Database();
-$db = $database->dbConnect();
+$db = $database->getConnection();
 
 if (isset($_POST['submit'])) {
   $work = new WorkPlace($db);
