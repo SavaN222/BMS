@@ -1,6 +1,7 @@
 <?php 
 
-class WorkPlace {
+class WorkPlace 
+{
 
 private $conn;
 private $table = 'radno_mesto';
@@ -117,4 +118,3 @@ public function deleteWork() {
 
 } // end of class
 
- ?>
